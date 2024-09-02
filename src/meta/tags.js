@@ -13,7 +13,7 @@ const url = nconf.get('url');
 const relative_path = nconf.get('relative_path');
 const upload_url = nconf.get('upload_url');
 
-console.log(Deema)
+console.log("Deema")
 Tags.parse = async (req, data, meta, link) => {
 	const isAPI = req.res && req.res.locals && req.res.locals.isAPI;
 	const defaultTags = getDefaultTags(isAPI);
